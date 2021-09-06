@@ -30,6 +30,19 @@
   height: 96px;
   margin: 15px 0;
 }
+
+.salveItensCard > button {
+  color: #ee2c56;
+  padding: 0 5px;
+  background-color: #fefefe;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
 .salveItensCardItem {
   width: 96px;
   height: 96px;

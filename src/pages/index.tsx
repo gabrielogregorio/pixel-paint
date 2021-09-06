@@ -2,9 +2,8 @@ import PalletColors from '../components/PalletColors'
 import Paint from '../components/Paint'
 import styles from '../styles/index.core.module.css'
 import ButtonSimple from '../components/ButtonSimple'
+import { useBase } from '../hooks/useBase'
 
-
-import { useBase } from '../../hooks/useBase'
 export default function Home() {
  const  {
   limparTudo,
@@ -20,9 +19,7 @@ export default function Home() {
       return (
         <div key={i} className={`${styles.salveItensCard}`}>
           
-          <button
-            className={`text-red-500  px-1 bg-gray-100 text-xs rounded-full `}
-            onClick={() => deleteItem(i)}>X</button>
+          <button onClick={() => deleteItem(i)}>X</button>
 
           <div className={`${styles.salveItensCardItem}`}>
             <Paint

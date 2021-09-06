@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import ArrayClass from "../src/model/ArrayClass"
+import ArrayClass from "../model/ArrayClass"
 
 export function useBase() {
   const [array, setArray] = useState<ArrayClass>(null)

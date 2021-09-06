@@ -1,0 +1,21 @@
+.cols {
+  width: 100%;
+  height: 100%;
+}
+
+.lines {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.pixel {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pixelMicro {
+  border: 1px solid #dedede;
+}
