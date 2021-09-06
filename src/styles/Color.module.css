@@ -1,0 +1,8 @@
+.color {
+  padding: 2px;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}

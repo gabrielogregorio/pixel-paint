@@ -1,0 +1,32 @@
+.paleta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.itemsPaleta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.itemsGridPaleta {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .itemsGridPaleta {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .paleta {
+    position: relative;
+  }
+}
