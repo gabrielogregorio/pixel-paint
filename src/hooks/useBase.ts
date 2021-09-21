@@ -12,9 +12,9 @@ export function useBase() {
   
   function limparTudo() {
     let arrayLocal = []
-    for(let i = 0; i < 16; i++) {
+    for(let i = 0; i < 20; i++) {
       let arrayTemp: string[] = []
-      for(let x = 0; x < 24; x++) {
+      for(let x = 0; x < 20; x++) {
         arrayTemp.push('')
       }
       arrayLocal.push(arrayTemp)
